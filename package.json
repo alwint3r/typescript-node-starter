@@ -1,0 +1,28 @@
+{
+  "name": "typescript-node-starter",
+  "version": "0.0.0",
+  "description": "TypeScript starter for Node.js project",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "start:dev": "nodemon dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/DyCode/DycodeX/typescript-node-starter.git"
+  },
+  "keywords": [],
+  "author": "Alwin Arrasyid <alwin@dycodex.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/DyCode/DycodeX/typescript-node-starter/issues"
+  },
+  "homepage": "https://gitlab.com/DyCode/DycodeX/typescript-node-starter#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.7.3"
+  }
+}
