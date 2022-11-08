@@ -1,3 +1,7 @@
+import { config } from 'dotenv';
+
+config();
+
 async function main() {
   console.log("Hello world!");
 }
